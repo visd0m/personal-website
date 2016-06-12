@@ -1,0 +1,35 @@
+.pageHeader {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: Menlo;
+}
+
+a {
+  color: hotpink;
+}
+
+.headerTitle {
+  font-size: 30;
+  position: relative;
+  font-weight: lighter;
+  color: white;
+  margin-left: 20px;
+  font-family: "Verdana", sans-serif;
+}
+
+#main-wrapper {
+  margin-top: 60px;
+}
+
+.icon {
+  height: 60px;
+  margin-left: 10px;
+  display: inline;
+  width: 60px;
+}
