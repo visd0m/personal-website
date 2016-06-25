@@ -34,3 +34,7 @@ a {
   display: inline;
   width: 60px;
 }
+
+.command-with-margin {
+  margin-top: 60px;
+}
