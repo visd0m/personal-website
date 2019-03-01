@@ -21,6 +21,7 @@ a {
   font-weight: lighter;
   color: white;
   margin-left: 20px;
+  vertical-align: top;
   font-family: "Verdana", sans-serif;
 }
 
@@ -29,10 +30,10 @@ a {
 }
 
 .icon {
-  height: 60px;
+  height: 30px;
   margin-left: 10px;
   display: inline;
-  width: 60px;
+  width: 30px;
 }
 
 .command-with-margin {
