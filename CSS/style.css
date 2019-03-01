@@ -1,9 +1,3 @@
-.pageHeader {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  width: 100%;
-}
-
 body {
   background-color: black;
   color: white;
@@ -15,27 +9,6 @@ a {
   color: hotpink;
 }
 
-.headerTitle {
-  font-size: 30;
-  position: relative;
-  font-weight: lighter;
-  color: white;
-  margin-left: 20px;
-  vertical-align: top;
-  font-family: "Verdana", sans-serif;
-}
-
 #main-wrapper {
-  margin-top: 100px;
-}
-
-.icon {
-  height: 30px;
-  margin-left: 10px;
-  display: inline;
-  width: 30px;
-}
-
-.command-with-margin {
-  margin-top: 60px;
+  margin-top: 20px;
 }
