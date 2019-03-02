@@ -1,12 +1,5 @@
-body {
-  background-color: black;
-  color: white;
-  font-family: Menlo;
-  font-size: 80%;
-}
-
 a {
-  color: hotpink;
+  color: blue;
 }
 
 #main-wrapper {
