@@ -5,3 +5,7 @@ a {
 #main-wrapper {
   margin-top: 20px;
 }
+
+pre {
+  font-size: 14px
+}
