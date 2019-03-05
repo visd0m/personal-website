@@ -1,14 +1,12 @@
 body {
   color: white;
   background-color: black;
+  margin-left: 20px;
+  margin-top: 20px;
 }
 
 a {
   color: cyan;
-}
-
-#main-wrapper {
-  margin-top: 20px;
 }
 
 pre {
