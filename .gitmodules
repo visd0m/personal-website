@@ -8,3 +8,9 @@
 [submodule "blog/themes/hugo-texify3"]
 	path = blog/themes/hugo-texify3
 	url = https://github.com/michaelneuper/hugo-texify3.git
+[submodule "blog/themes/hugo-theme-nightfall"]
+	path = blog/themes/hugo-theme-nightfall
+	url = https://github.com/LordMathis/hugo-theme-nightfall
+[submodule "blog/themes/nightfall"]
+	path = blog/themes/nightfall
+	url = https://github.com/LordMathis/hugo-theme-nightfall
