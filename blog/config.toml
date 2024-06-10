@@ -1,6 +1,6 @@
 baseURL = 'http://visd0m.dev/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'visd0m\'s blog'
 theme = 'ananke'
 
 [markup.goldmark.renderer]
