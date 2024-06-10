@@ -11,3 +11,4 @@ blog/hugo.linux
 
 # Temporary lock file while building
 blog/.hugo_build.lock
+blog/node_modules

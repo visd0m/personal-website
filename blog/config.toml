@@ -1,7 +1,7 @@
 baseURL = 'http://visd0m.dev/'
 languageCode = 'en-us'
-title = 'visd0m\'s blog'
-theme = 'ananke'
+title = "visd0m's blog"
+theme = 'hugo-texify3'
 
 [markup.goldmark.renderer]
 unsafe = true
