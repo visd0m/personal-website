@@ -1,1 +1,13 @@
-.DS_Store
+# Generated files by hugo
+blog/public/
+blog/resources/_gen/
+blog/assets/jsconfig.json
+blog/hugo_stats.json
+
+# Executable may be added to repository
+blog/hugo.exe
+blog/hugo.darwin
+blog/hugo.linux
+
+# Temporary lock file while building
+blog/.hugo_build.lock
