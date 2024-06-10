@@ -1,0 +1,7 @@
+#+hugo_base_dir: ../
+
+* My first test post                                        :tag1:@category1:
+:PROPERTIES:
+:EXPORT_FILE_NAME: my-first-post
+:END:
+Lorem ipsum

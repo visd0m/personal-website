@@ -2,3 +2,6 @@ baseURL = 'http://visd0m.dev/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = 'ananke'
+
+[markup.goldmark.renderer]
+unsafe = true
