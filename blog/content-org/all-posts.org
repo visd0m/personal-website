@@ -1,7 +1,8 @@
 #+hugo_base_dir: ../
 
-* My first test post                                        :tag1:@category1:
+* My personal journey to emacs                                       :@emacs:
 :PROPERTIES:
-:EXPORT_FILE_NAME: my-first-post
+:EXPORT_FILE_NAME: my-personal-journey-to-emacs
 :END:
-Lorem ipsum
+
+Coming soon

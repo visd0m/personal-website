@@ -14,3 +14,6 @@
 [submodule "blog/themes/nightfall"]
 	path = blog/themes/nightfall
 	url = https://github.com/LordMathis/hugo-theme-nightfall
+[submodule "blog/themes/PaperMod"]
+	path = blog/themes/PaperMod
+	url = https://github.com/adityatelange/hugo-PaperMod.git

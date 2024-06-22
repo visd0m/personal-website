@@ -1,7 +1,25 @@
 baseURL = 'http://visd0m.dev/'
 languageCode = 'en-us'
-title = "visd0m's blog"
-theme = 'nightfall'
+title = "visd0m.dev"
+theme = 'PaperMod'
 
 [markup.goldmark.renderer]
 unsafe = true
+
+[params.homeInfoparams]
+title = "whoami"
+content = """
+Hi 👋!<br/>
+I am visd0m, a software developer and here you can read about my passions:
+<li/> emacs
+<li/> software development
+<li/> videogames
+"""
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/visd0m"
+
+[[params.socialIcons]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/domenico-visconti-b6624b8b"
