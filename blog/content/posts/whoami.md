@@ -1,44 +1,48 @@
-#+hugo_base_dir: ../
-#+author: visd0m
++++
+title = "whoami"
+author = ["visd0m"]
+categories = ["resume"]
+draft = false
++++
 
-* whoami                                                            :@resume:
-:PROPERTIES:
-:EXPORT_FILE_NAME: whoami
-:END:
+## Professional life {#professional-life}
 
-** Professional life
 
-*** the education era
+### the education era {#the-education-era}
 
 Everything started with me attending a language high school in Turin, Italy.
 
 After the high school I attended the computer science course at the University of Turin.
-I got the bachelore degreee with a thesis about the experience I had as internship, 3 months of work as a android developer in the startup [[https://www.eversnapapp.com/][Eversnap]] in San Jose, California.
+I got the bachelore degreee with a thesis about the experience I had as internship, 3 months of work as a android developer in the startup [Eversnap](https://www.eversnapapp.com/) in San Jose, California.
 
-*** the Satispay era
 
-While I was still writing the thesis I started working at [[https://www.satispay.com/en-it/][Satispay]], a startup based in Milan with the mission of rewrite the history of mobile payments.
+### the Satispay era {#the-satispay-era}
+
+While I was still writing the thesis I started working at [Satispay](https://www.satispay.com/en-it/), a startup based in Milan with the mission of rewrite the history of mobile payments.
 I worked in Satispay for 4 years 2015 - 2019, here I covered several roles, from mobile developer (IOS, Android) to backend developer, passing by java desktop application developer.
 It has been an amazing experience for me since I has been able to develop the full stack of the application from backend apis to client UIs, with a taste of ol' good devops experience.
 
-*** the Prima era
 
-From 2019 I joined [[https://www.prima.it/][Prima]] an insurtech company where I am still working at the moment.
+### the Prima era {#the-prima-era}
+
+From 2019 I joined [Prima](https://www.prima.it/) an insurtech company where I am still working at the moment.
 In Prima I worked both on the frontend and on the backend, with the great pleasure of using a really interesting stack of technologies.
 Some highlights:
-- backend services in Elixir
-- backend services in Rust
-- frontend SPAs in Elm
-- GraphQL and GRPC as communication protocol betwen backend services and clients
-- CQRS + ES pattern
+
+-   backend services in Elixir
+-   backend services in Rust
+-   frontend SPAs in Elm
+-   GraphQL and GRPC as communication protocol betwen backend services and clients
+-   CQRS + ES pattern
 
 Always in Prima, I am starting a new adventure as engineering manager.
 
-** Personal life
+
+## Personal life {#personal-life}
 
 From a personal perspective I am Domenico Visconti.
-I live in Lecco, Italy with my girlfriend and my dachsund 🌭 dog. 
-[[file:woody.jpg]]
+I live in Lecco, Italy with my girlfriend and my dachsund 🌭 dog.
+![](/ox-hugo/woody.jpg)
 
 I used to like to take macro pictures, honestly I am not really active lately because I have to update my gear to keep up with the current time.
 I am really into videogames since I was a child, basically I am a video game player with more than 20 years of experience.
