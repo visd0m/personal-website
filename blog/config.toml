@@ -7,7 +7,6 @@ theme = 'PaperMod'
 unsafe = true
 
 [params.homeInfoparams]
-title = "whoami"
 content = """
 Hi 👋!<br/>
 I am visd0m and this is a blog about:

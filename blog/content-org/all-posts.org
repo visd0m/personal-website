@@ -19,7 +19,7 @@ I got the bachelore degreee with a thesis about the experience I had as internsh
 
 While I was still writing the thesis I started working at [[https://www.satispay.com/en-it/][Satispay]], a startup based in Milan with the mission of rewrite the history of mobile payments.
 I worked in Satispay for 4 years 2015 - 2019, here I covered several roles, from mobile developer (IOS, Android) to backend developer, passing by java desktop application developer.
-It has been an amazing experience for me since I has been able to develop the full stack of the application from backend apis to client UIs, with a taste of ol' good devops experience.
+It has been an amazing experience for me since I have been able to develop the full stack of the application from backend apis to client UIs, with a taste of ol' good devops experience.
 
 *** the Prima era
 
@@ -42,7 +42,7 @@ I live in Lecco, Italy with my girlfriend and my dachsund 🌭 dog.
 
 I used to like to take macro pictures, honestly I am not really active lately because I have to update my gear to keep up with the current time.
 I am really into videogames since I was a child, basically I am a video game player with more than 20 years of experience.
-In the last year I fell in love with emacs, I can consider myself an emacs ambassador (even now I am writing this blog post in an org file using emacs and then exporting the org to a markdown hugo compatible format).
+In the last years I fell in love with emacs, I can consider myself an emacs ambassador (even now I am writing this blog post in an org file using emacs and then exporting the org to a markdown hugo compatible format).
 
 I used to practice sports when I was younger, I practiced basketball, tennis and boxing.
 At the moment I can say that time has passed and the shape of my free time changed when I started working, let's say that I decided to allocate my free time to other activities rather than sports.
