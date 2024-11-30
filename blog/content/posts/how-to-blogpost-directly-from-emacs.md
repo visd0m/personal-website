@@ -37,17 +37,17 @@ Ok, here is my workflow.
 
 Not bad ha?
 
-If you like it, and you are still reading, in the next section you can find out what is needed in order to reach this workflow.
+If you like it, and you are still reading, in the next section you can find out the ingredient needed for the recipe.
 
 
-### A static site generator: [Hugo](https://gohugo.io/) {#a-static-site-generator-hugo}
+### First ingredient: the static site generator [Hugo](https://gohugo.io/) {#first-ingredient-the-static-site-generator-hugo}
 
 Nothing to say about it, it just works out of the box.
 
 Furthermore [here](https://themes.gohugo.io/) there are several free cool themes available that you can use to style your static website without too much work.
 
 
-### A way to produce a Hugo compatible markdown file starting from an org file: [ox-hugo](https://ox-hugo.scripter.co/) {#a-way-to-produce-a-hugo-compatible-markdown-file-starting-from-an-org-file-ox-hugo}
+### Second ingredient: a way to produce a Hugo compatible markdown file starting from an org file [ox-hugo](https://ox-hugo.scripter.co/) {#second-ingredient-a-way-to-produce-a-hugo-compatible-markdown-file-starting-from-an-org-file-ox-hugo}
 
 Here is where the magic happens, this emacs package allows to `org-export-dispatch` the org file into a Hugo compatible markdown file.
 
@@ -62,11 +62,25 @@ Nothing too complex to setup this package, here is the snippet needed to add it 
 
 No other complex things to do to make these two working together, really I just followed this [Quick Start](https://ox-hugo.scripter.co/doc/quick-start/) to setup my first project and everything worked without issues.
 
-You will end up having one or multiple org files that will contain the source text for your blog posts.
-You can edit the source file freely, export the content via `org-export-dispatch` so that Hugo server can render the new content.
+In any case you will end up having one or multiple org files that will contain the source text for your blog posts.
 
 
-### The last piece of the puzzle: the GitHub Action {#the-last-piece-of-the-puzzle-the-github-action}
+### Mixing together {#mixing-together}
+
+We are almost there, bear with me!
+
+Start the Hugo server within a shell with the following command
+
+```bash
+hugo server --buildDrafts --navigateToChanged
+```
+
+Edit the source files to update your blog posts.
+
+Export the content via `org-export-dispatch` and let Hugo render the new content 🧑‍🍳😙🤌.
+
+
+### The last ingredient: the GitHub Action {#the-last-ingredient-the-github-action}
 
 If you plan to version you blog post code on GitHub and serve it through GitHub Pages this might be the last piece of the puzzle.
 
