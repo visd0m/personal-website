@@ -89,8 +89,8 @@ Ok, here is my workflow.
 1. I write my post in an org file (emacs users love org files 🦄)
 2. I export my org file to a Hugo compatible markdown file
 3. The local running hugo server automagically renders the new version of the blog post
-4. When I am happy with my new blogpost I merge the changes in the master branch of my github repo
-5. A GitHub Action runs when something is pushed on master generating the new version of the public website and deploys it to GitHub Pages
+4. When I am happy with my new blogpost I merge the changes in the main branch of my GitHub repo
+5. A GitHub Action runs when new changes are pushed on the main branch generating the new version of the public website and deploys it to GitHub Pages
 
 Not bad ha?
 
