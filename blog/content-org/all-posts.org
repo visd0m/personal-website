@@ -61,7 +61,7 @@ Stay tuned if you are interested in software development, videogames or emacs ti
 
 Cheers!
 
-* how to blogpost directly from emacs :@emacs:
+* how to blogpost directly from emacs                                :@emacs:
 :PROPERTIES:
 :EXPORT_FILE_NAME: how-to-blogpost-directly-from-emacs
 :END:
@@ -96,23 +96,22 @@ Not bad ha?
 
 If you like it, and you are still reading, in the next section you can find out the ingredients needed for this recipe.
 
-*** First ingredient: the static site generator [[https://gohugo.io/][Hugo]]
+*** First ingredient: [[https://gohugo.io/][Hugo]], the static site generator
 Nothing to say about it, it just works out of the box.
 
 Furthermore [[https://themes.gohugo.io/][here]] there are several free cool themes available that you can use to style your static website without too much work.
 
-*** Second ingredient: a way to produce a Hugo compatible markdown file starting from an org file [[https://ox-hugo.scripter.co/][ox-hugo]]
+*** Second ingredient: [[https://ox-hugo.scripter.co/][ox-hugo]], a way to produce a Hugo compatible markdown file starting from an org file
 Here is where the magic happens, this emacs package allows to ~org-export-dispatch~ the org file into a Hugo compatible markdown file.
 
-Nothing too complex to setup this package, here is the snippet needed to add it to your emacs-configuration using ~use-package~
+Nothing too complex to setup this package, here is the snippet needed (for ~use-package~ users), you just have to add it to your emacs configuration
 #+begin_src emacs-lisp
 (use-package ox-hugo
-    :ensure t
-    :pin melpa
+    :straight t
     :after ox)
 #+end_src
 
-No other complex things to do to make these two working together, really I just followed this [[https://ox-hugo.scripter.co/doc/quick-start/][Quick Start]] to setup my first project and everything worked without issues.
+No other complex things to do to make these two working together, really I just followed this [[https://ox-hugo.scripter.co/doc/quick-start/][Quick Start]] to setup my first project and everything worked without any issue.
 
 In any case you will end up having one or multiple org files that will contain the source text for your blog posts.
 
@@ -129,7 +128,7 @@ Edit the source files to update your blog posts.
 Export the content via ~org-export-dispatch~ and let Hugo render the new content 🧑‍🍳😙🤌.
 
 *** The last ingredient: the GitHub Action
-If you plan to version you blog post code on GitHub and serve it through GitHub Pages this might be the last piece of the puzzle.
+If you plan to version your blog post code on GitHub serving it through GitHub Pages this might be the last piece of the puzzle.
 
 It's fairly easy to setup a dedicated GitHub action that generates and deploys the new version of your static blog post when new changes are pushed to the main branch.
 If you want to do it just follow the new workflow creation in GitHub.
